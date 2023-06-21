@@ -2,25 +2,25 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "{{ .Site.Params.local.localBusinessName }}",
-      "image": "{{ .Site.Params.local.localBusinessImage }}",
+      "name": "{{ .Site.local.localBusinessName }}",
+      "image": "{{ .Site.local.localBusinessImage }}",
       "url": "{{ .Site.BaseURL }}",
-      "telephone": "{{ .Site.Params.local.localBusinessTelephone }}",
+      "telephone": "{{ .Site.local.localBusinessTelephone }}",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "{{ .Site.Params.local.localBusinessStreetAddress }}",
-        "addressLocality": "{{ .Site.Params.local.localBusinessAddressLocality }}",
-        "addressRegion": "{{ .Site.Params.local.localBusinessAddressRegion }}",
-        "postalCode": "{{ .Site.Params.local.localBusinessPostalCode }}",
-        "addressCountry": "{{ .Site.Params.local.localBusinessAddressCountry }}"
+        "streetAddress": "{{ .Site.local.localBusinessStreetAddress }}",
+        "addressLocality": "{{ .Site.local.localBusinessAddressLocality }}",
+        "addressRegion": "{{ .Site.local.localBusinessAddressRegion }}",
+        "postalCode": "{{ .Site.local.localBusinessPostalCode }}",
+        "addressCountry": "{{ .Site.local.localBusinessAddressCountry }}"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "{{ .Site.Params.local.localBusinessLatitude }}",
-        "longitude": "{{ .Site.Params.local.localBusinessLongitude }}"
+        "latitude": "{{ .Site.local.localBusinessLatitude }}",
+        "longitude": "{{ .Site.local.localBusinessLongitude }}"
       },
-      "openingHours": "{{ .Site.Params.local.localBusinessOpeningHours }}"
+      "openingHours": "{{ .Site.local.localBusinessOpeningHours }}"
     }
     </script>
-    {{ printf "%#v" .Site.Params.local }}
+    {{ printf "%#v" .Site.local }}
     
