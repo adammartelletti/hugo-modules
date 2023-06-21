@@ -6,7 +6,7 @@
     ```toml
     [module]
         [[module.imports]]
-        path = "github.com/adammartelletti/hugo-modules/seo"
+        path = "github.com/adammartelletti/hugo-modules/local-business-seo"
     ```
 
 2. Add the following
