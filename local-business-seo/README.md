@@ -3,11 +3,11 @@
 
 1. Add the following to your site's `config.toml` to enable the `seo` module:
 
-    ```toml
-    [module]
-        [[module.imports]]
-        path = "github.com/adammartelletti/hugo-modules/local-business-seo"
-    ```
+```toml
+[module]
+    [[module.imports]]
+    path = "github.com/adammartelletti/hugo-modules/local-business-seo"
+```
 
 2. Add the following
    
