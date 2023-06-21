@@ -1,0 +1,28 @@
+{
+    "name": "@adammartelletti/hugo-modules",
+    "description": "Hugo Modules for adammartelletti.com themes",
+    "homepage": "https://github.com/adammartelletti/hugo-modules",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/adammartelletti/hugo-modules.git"
+    },
+    "bugs": {
+      "url": "https://github.com/adammartelletti/hugo-modules/issues"
+    },
+    "keywords": [
+      "hugo",
+      "hugo-modules"
+    ],
+    "author": {
+      "name": "Adam Martelletti",
+      "web": "https://adammartelletti.com"
+    },
+    "maintainers": [
+      {
+        "name": "Adam",
+        "email": "",
+        "web": ""
+      }
+    ]
+  }
